@@ -1,0 +1,30 @@
+{
+  "name": "restserver1",
+  "version": "0.0.1",
+  "description": "Rest service to retrieve data from Mongodb",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vvijay26/NodejsREST.git"
+  },
+  "keywords": [
+    "REST"
+  ],
+  "author": "Vijay Vaidyanathan",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/vvijay26/NodejsREST/issues"
+  },
+  "homepage": "https://github.com/vvijay26/NodejsREST#readme",
+  "devDependencies": {
+    "nodemon": "^1.14.10"
+  },
+  "dependencies": {
+    "express": "^4.16.2",
+    "mongoose": "^4.13.9"
+  }
+}
